@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Varela+Round&display=swap");
+$dark: #171716;
+$text: #6d6c6c;
+$primary: #dfeffd;
+$primary-lighter: #ebf5fe;
+
+// generic
+.btn {
+  padding: 1em 2em;
+  background-color: $primary;
+  color: white;
+  border-radius: 0.5em;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+.btn-wrapper {
+  padding: 2em 0;
+  width: 100%;
+  @media only screen and (max-width: 450px) {
+    text-align: center;
+  }
+}
+
+a {
+  color: $dark;
+  text-decoration: none;
+  &:hover{
+    color: #0388bd;
+  }
+}
+

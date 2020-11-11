@@ -1,0 +1,145 @@
+@import "./app.scss";
+
+// app
+div.app {
+  width: 90%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  margin: auto;
+  background: url("../assets/bg.png");
+  background-size: contain;
+
+  @media only screen and (max-width:  900px) {
+    /* Styles */
+    flex-direction: column;
+    height: fit-content;
+  }
+  & > div {
+    padding: 2em 2em;
+    width: 50%;
+  }
+
+  & > .content {
+    border-left: 0.05em solid #c0c0c0;
+    color: $text;
+    background-color: #fffd;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    font-weight: 100;
+    font-size: 0.9em;
+    line-height: 2em;
+    @media only screen and (max-width: 900px) {
+      /* Styles */
+      border-width: 0;
+      width: 90%;
+      padding: .5em;
+      text-align: center;
+    }
+
+    & > h1 {
+      margin-bottom: 0.2em;
+      color: $dark;
+      font-size: 2.5em;
+      @media only screen and (max-width:  900px) {
+        /* Styles */
+        width: 100%;
+      }
+    }
+
+    & > .title {
+      @media only screen and (max-width:  900px) {
+        /* Styles */
+        width: 100%;
+      }
+    }
+
+    & > .connect {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      @media only screen and (max-width:  900px) {
+        /* Styles */
+        width: 100%;
+      }
+      & > a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 0.5em;
+        font-size: 1em;
+      }
+      & > a.project {
+        color: #0388bd;
+      }
+    }
+
+    & > img {
+      width: 4em;
+    }
+  }
+
+  & > .avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media only screen and (max-width:  900px) {
+      /* Styles */
+      width: 200px;
+      height: 200px;
+      padding: 2em 0;
+    }
+
+    & > .circle {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-sizing: border-box;
+      border-radius: 50%;
+      background-color: #ebf5feee;
+      width: 25em;
+      height: 25em;
+      @media only screen and (max-width:  900px) {
+        /* Styles */
+        width: 200px;
+        height: 200px;
+      }
+
+      & > .circle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        border-radius: 50%;
+        background-color: #dfeffdee;
+        width: 20em;
+        height: 20em;
+        @media only screen and (max-width:  900px) {
+          /* Styles */
+          width: 150px;
+          height: 150px;
+        }
+
+        & > img {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          box-sizing: border-box;
+          border-radius: 50%;
+          width: 15em;
+          height: 15em;
+          object-fit: cover;
+          @media only screen and (max-width:  900px) {
+            /* Styles */
+            width: 100px;
+            height: 100px;
+          }
+        }
+      }
+    }
+  }
+}

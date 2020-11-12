@@ -17,7 +17,7 @@ function Home() {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://marvinified.dev"
+            href="https://aminajao.netlify.app"
           >
             {" "}
             Frontend Developer{" "}
@@ -42,13 +42,13 @@ function Home() {
           </a>
           <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
 
-          <a
+          {/* <a
             rel="noopener noreferrer"
             target="_blank"
             href="https://bildev.hashnode.dev"
           >
             <span>Blog</span>
-          </a>
+          </a> */}
         </div>
         <br />
         <br />

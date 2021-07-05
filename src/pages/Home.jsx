@@ -7,7 +7,7 @@ function Home() {
       <div className="avatar">
         <div className="circle">
           <div className="circle">
-            <img alt="marvin" src={require("../assets/avatar.jpg")} />
+            <img alt="Amin" src="https://res.cloudinary.com/dg7n6i9e1/image/upload/v1625515328/Amin-image-cut_rg7oub.jpg" />
           </div>
         </div>
       </div>
@@ -35,7 +35,7 @@ function Home() {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://drive.google.com/file/d/1I3y3V2YD3dTgFzWatrp4cly-RgT5iT9T/view?usp=drivesdk"
+            href="https://drive.google.com/file/d/1ljfcLnxIHY49S-ImNAAzK6cg_JV8VcJG/view?usp=sharing"
           >
             <span>Resume</span>
             <ion-icon name="download"></ion-icon>
@@ -59,7 +59,7 @@ function Home() {
         frontends and UIs of applications with technologies like react, redux, react-hooks, typescript,
         Apollo, nextjs, css, chakraUI, ant-design and also have plans to pick up vue and nuxt soon.
         Aside working on the frontend, I also do some nodejs, expressjs, mongoDB, as well as react native and flutter/dart.
-         {/* I'm also experienced in building elegant softwares in a team as a major contributor. */}
+        {/* I'm also experienced in building elegant softwares in a team as a major contributor. */}
         <br />
         <br />
         I love bringing designs to life and learning/exploring new technologies.
@@ -69,21 +69,21 @@ function Home() {
         <div className="connect">
           <span>Some live projects: </span>
           <a
-          className="project"
+            className="project"
             rel="noopener noreferrer"
             target="_blank"
             href="https://pipcleaning.ng"
           > PIP Cleaning |
           </a>
           <a
-          className="project"
+            className="project"
             rel="noopener noreferrer"
             target="_blank"
             href="https://techgenafrica.com"
           > TechGen Africa |
           </a>
           <a
-          className="project"
+            className="project"
             rel="noopener noreferrer"
             target="_blank"
             href="https://itazkir.com"
